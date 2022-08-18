@@ -1,0 +1,22 @@
+body{
+background-size: cover;
+margin-top:-140px;
+margin-left:-70px;
+position: fixed;
+}
+
+#logo{
+  position: absolute;
+}
+
+#logo path{
+  stroke-dasharray: 5338;
+  stroke-dashoffset: 5338;
+  animation: text 10s ease forwards;
+}
+
+@keyframes text{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
